@@ -52,5 +52,8 @@ you may run last executed commands by pressing `![number]`
 
 also you can change by command ` chvt [number of vty]` like `chvt 3`
 
+
+## Extra 
+` man [command]` for learning about command  
  
 
