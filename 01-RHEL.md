@@ -61,7 +61,18 @@ Two modes
 - Edit/Insert --> ESC mode 
 
 
+## Useful Commands
 
+#### Grep
+For searching data (string) in a file.
+`grep "[word]" [file location]`
+
+
+`grep -i "[word]" [file location]` for ignoring case
+
+
+### Diff
+For finding difference 
 
 
 
@@ -73,7 +84,26 @@ Two modes
 */* is for moving downward
 *?* for going upward
 
+- y for Copy
+- yy for copying line
+- v for visual (selection)
+- p for paste
+- u for undo
+- CTRL + r for redo
+- dG
+- GG
+
+`%s/{Replace word}/{To be replaced}
+
+`%s%/{Replace word}/{To be replaced}/g -- for all occurences
+
+
+
+
 ** Vimtutor ** for tutorial for learning
+
+
+
 
 ## Man - Manual 
 ` man [command]` for learning about command  
