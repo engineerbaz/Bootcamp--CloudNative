@@ -60,7 +60,22 @@ Two modes
 - Command (By default) --> by pressing ` i,a,o`
 - Edit/Insert --> ESC mode 
 
-## Extra 
+
+
+
+
+
+
+# Extra
+
+* Nagivation within document/file 
+
+*/* is for moving downward
+*?* for going upward
+
+** Vimtutor ** for tutorial for learning
+
+## Man - Manual 
 ` man [command]` for learning about command  
  
 
