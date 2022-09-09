@@ -74,7 +74,8 @@ For searching data (string) in a file.
 ### Diff
 For finding difference 
 
-
+### File
+`file [file name]` for checking file type/content
 
 
 # Extra
@@ -99,11 +100,22 @@ For finding difference
 
 
 
+`echo "[TEXT]" > File name` redirection for adding in text file
 
-** Vimtutor ** for tutorial for learning
+`echo "[TEXT]" >> File name` redirection for adding in text file
+
+
+`du -sh [location]` Director Usuage 
 
 
 
+
+
+## Vimtutor 
+For tutorial for learning
+
+
+  
 
 ## Man - Manual 
 ` man [command]` for learning about command  
