@@ -7,6 +7,10 @@
 
 
 
-
+## Path
+- Absolute
+-- /root/home/Desktop 
+- Relative
+-- home/Desktop
 
 
