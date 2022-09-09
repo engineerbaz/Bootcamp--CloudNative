@@ -1,5 +1,7 @@
 # Red Hat Enterprise Linux
 
+Linux is extension-free and case sensitive
+
 ## User
 - Normal
 - Super 
@@ -52,6 +54,11 @@ you may run last executed commands by pressing `![number]`
 
 also you can change by command ` chvt [number of vty]` like `chvt 3`
 
+
+## Vi 
+Two modes
+- Command (By default) --> by pressing ` i,a,o`
+- Edit/Insert --> ESC mode 
 
 ## Extra 
 ` man [command]` for learning about command  
