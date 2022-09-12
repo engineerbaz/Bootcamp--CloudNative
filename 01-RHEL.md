@@ -78,6 +78,40 @@ For finding difference
 `file [file name]` for checking file type/content
 
 
+### Tail 
+`tail [file]` to show last 10 lines
+`tail -n [number of row] abc.txt` 
+
+### Head
+`head [file]` to show top 10 lines
+`head -n [number of row] abc.txt` 
+
+
+### Find 
+`find [location] -type -size -name`
+`find /etc/ -type f -size 100c` shows files of size under 100 bytes
+
+
+## CALENDAR
+
+`cal`
+`cal -y 2022`
+
+## Date 
+
+## Joining Commands
+
+`mkdir test && cd mkdir` run first command than do second command if first completed.
+` mkdir hi; date` run first command than do second  
+
+
+
+## service
+
+Daemon
+
+`systemctl restart sshd` restarting SSH Daemon (sshd)
+
 # Extra
 
 * Nagivation within document/file 
@@ -108,6 +142,15 @@ For finding difference
 `du -sh [location]` Director Usuage 
 
 
+`head -n 5 [file] | tail -n 1` Shows only 5th line 
+
+`less [filename]` to display content of file 
+
+
+`which [file]` tells location of file 
+
+
+`touch file{1...6}.txt` Create 6 files i.e file1.txt and file2.txt 
 
 
 
