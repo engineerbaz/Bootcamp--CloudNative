@@ -32,3 +32,11 @@ source bin
 
 - tmp
 Temporary files for 10 days
+
+
+## SHell
+
+- BASH (Bourne Again SHell)
+- SHell
+- KSH
+- 
