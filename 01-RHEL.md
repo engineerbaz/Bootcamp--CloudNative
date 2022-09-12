@@ -84,7 +84,7 @@ For finding difference
 
 ### Head
 `head [file]` to show top 10 lines
-`head -n [number of row] abc.txt` 
+`head -n 6 abc.txt` show top 6 lines of abc.txt
 
 
 ### Find 
@@ -108,6 +108,10 @@ For finding difference
 `systemctl status cockpit` to view Dashboard of Redhat 
 open web browser *localhost:9090*
 
+## VISUDO
+`visudo` for modifying user details/permission for opening `/etc/sudoer/`
+
+while `/sudoers.d/`is a directory , you may file 
 
 
 
@@ -177,6 +181,15 @@ pasphrase for enctyption
 
 
 `ss -ltp` investigate sockets option l=listen , p=port, 
+
+
+`daksdnkdnaskdn 2> /dev/null` for putting data in null
+
+`lscpu` or `cat /proc/cpuinfo`
+
+`free -h` or `cat /proc/meminfo` 
+
+`ps aux | less`
 
 
 ## Vimtutor 
