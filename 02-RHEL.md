@@ -38,3 +38,19 @@
 - Password based 
 
 `ssh [user]@[ip or name]` 
+
+
+## User
+- Root user has UID is zero (0)
+
+`id` for checking details of users
+
+`user add`
+`usermod -aG [group] [user]` -aG = append group
+
+
+## Group
+- Group user has UID is zero (0)
+
+`id` for checking details of users
+
