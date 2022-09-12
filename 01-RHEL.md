@@ -112,6 +112,19 @@ Daemon
 
 `systemctl restart sshd` restarting SSH Daemon (sshd)
 
+* Generate Keygen
+`ssh-keygen` 
+pasphrase for enctyption
+
+* filename.pub is Public Key
+* id_rsa for Private Key
+
+`ssh-copy-id [remoteuser]@[remoteID]` copy your public key to remote machine so next time Authentication/authorization can be done easily
+
+`-i` is used for making unique public key for services with pasphrase
+
+
+
 # Extra
 
 * Nagivation within document/file 
