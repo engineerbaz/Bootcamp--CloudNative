@@ -48,9 +48,18 @@
 `user add`
 `usermod -aG [group] [user]` -aG = append group
 
+- `/etc/skel/` is available for all users 
+
+`useradd junaid -c "Junaid Ali" -s /sbin/nologin -u 4449 -G wheel` 
 
 ## Group
 - Group user has UID is zero (0)
 
 `id` for checking details of users
+
+* wheel * has rights like administrator in Red Hat  
+
+`%` shows group 
+
+
 
