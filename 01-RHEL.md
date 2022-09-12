@@ -3,9 +3,9 @@
 Linux is extension-free and case sensitive
 
 ## User
-- Normal
-- Super 
-- System
+- Regular
+- Superuser
+- System user
 
 
 
@@ -104,6 +104,11 @@ For finding difference
 `mkdir test && cd mkdir` run first command than do second command if first completed.
 ` mkdir hi; date` run first command than do second  
 
+## Cockpit
+`systemctl status cockpit` to view Dashboard of Redhat 
+open web browser *localhost:9090*
+
+
 
 
 ## service
@@ -123,6 +128,11 @@ pasphrase for enctyption
 
 `-i` is used for making unique public key for services with pasphrase
 
+
+`eval $(ssh-agent)` check and initiate ssh agent 
+
+
+`ssh-add
 
 
 # Extra
@@ -165,6 +175,8 @@ pasphrase for enctyption
 
 `touch file{1...6}.txt` Create 6 files i.e file1.txt and file2.txt 
 
+
+`ss -ltp` investigate sockets option l=listen , p=port, 
 
 
 ## Vimtutor 
