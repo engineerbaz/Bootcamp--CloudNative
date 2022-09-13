@@ -7,7 +7,9 @@ Linux is extension-free and case sensitive
 - Superuser
 - System user
 
-
+- Administrattive User (Root)
+- Standard User 
+- Service User 
 
 ## Path
 Absolute
