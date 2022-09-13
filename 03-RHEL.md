@@ -35,4 +35,11 @@ x=1
 `chmod ugo=--- [file]` REmove all permission to User/group/owner
 
 
+`chown`
 
+## umask
+
+
+`chmod g+s [directory] -r` For sticky permission 
+
+sticky means only Owner can delete file 
