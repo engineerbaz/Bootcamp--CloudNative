@@ -42,11 +42,19 @@
 
 ## User
 - Root user has UID is zero (0)
+- 1 - 200 Static System
+- 201 - 999 System user 
+- 1000 - Regular User
+  
 
 `id` for checking details of users
 
 `user add`
 `usermod -aG [group] [user]` -aG = append group
+
+`passwd` for setting Password
+
+`/etc/passwd` for checking users 
 
 - `/etc/skel/` is available for all users 
 
