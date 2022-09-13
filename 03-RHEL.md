@@ -2,19 +2,7 @@
 ## permission
 
 - SHA 512 is being used.
-
-
 `/etc/security/pwquality` for Password
-
-
-
-----
-
-
-image.png
-
------
-
 
 UGO = User, Group, Others
 ```
@@ -26,6 +14,9 @@ w=2
 x=1
 
 +,-,= are operations 
+
+```
+
 
 `chmod u+x [file]` Give permission of eXecute also to User
 
