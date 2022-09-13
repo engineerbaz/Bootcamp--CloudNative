@@ -17,6 +17,14 @@ x=1
 
 ```
 
+`chown [user] [filename]` Change user owner
+
+`chown [user]:[group] [filename]` Change user owner
+
+`chgrp[user] [filename]` Change Group owner
+
+
+
 
 `chmod u+x [file]` Give permission of eXecute also to User
 
@@ -27,7 +35,8 @@ x=1
 `chmod ugo=--- [file]` REmove all permission to User/group/owner
 
 
-`chown`
+
+
 
 ## umask
 
