@@ -58,7 +58,10 @@
 
 - `/etc/skel/` is available for all users 
 
-`useradd junaid -c "Junaid Ali" -s /sbin/nologin -u 4449 -G wheel` 
+`useradd junaid -c "Junaid Ali" -s /sbin/nologin -u 4449 -G wheel`  User junaid with UID 4449 in Wheel group with nologin facility
+
+
+`/etc/shadow/` for saving Password
 
 ## Group
 - Group user has UID is zero (0)
