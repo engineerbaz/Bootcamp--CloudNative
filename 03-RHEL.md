@@ -43,8 +43,6 @@ x=1
 `chmod 777 [file]` Give all permission to UGO 
 
 
-
-
 ## umask
 
 By default we create file /directory , default permission is 666/777 respectively 
@@ -56,6 +54,35 @@ if no Change in umask
 so if regular creates a file it's permission will be 666 - 002 = 664
 so if regular creates a directory it's permission will be 777 - 002 = 775
 
+
+
+## Special Permission
+
+- SUID
+  - Only eXecute with owner permission
+- SGID
+- Pticky
+
+
+- Symbolic Method
+  - SUID = u+s 
+  - SGID =  g+s
+  - Sticky =  T 
+
+- Numeric
+  - SUID = 4
+  - SGID = 2
+  - Sticky = 1
+
+
+
 `chmod g+s [directory] -r` For sticky permission 
 
 sticky means only Owner can delete file 
+
+
+`chmod +t [directory] -r` For sticky permission 
+
+
+`chmod 6664 [directory] -r` For sticky permission 
+
