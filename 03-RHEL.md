@@ -23,8 +23,12 @@ x=1
 
 `chgrp[user] [filename]` Change Group owner
 
+## Change Modify permission
 
+- Symbolic Method 
+- Numeric Method
 
+### Symbolic Method
 
 `chmod u+x [file]` Give permission of eXecute also to User
 
@@ -35,11 +39,22 @@ x=1
 `chmod ugo=--- [file]` REmove all permission to User/group/owner
 
 
+### Numeric Method
+`chmod 777 [file]` Give all permission to UGO 
+
 
 
 
 ## umask
 
+By default we create file /directory , default permission is 666/777 respectively 
+if no Change in umask 
+
+- Regular User == 0002
+- Root user = 0022
+
+so if regular creates a file it's permission will be 666 - 002 = 664
+so if regular creates a directory it's permission will be 777 - 002 = 775
 
 `chmod g+s [directory] -r` For sticky permission 
 
