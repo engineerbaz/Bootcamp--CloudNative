@@ -21,5 +21,12 @@
 
 `nmcli`
 
-
+## Assignment 
 sudo -i vs su - 
+
+
+---
+NETWORK 
+------
+
+`/etc/sysconfig/network-scripts/` for all available nw 
