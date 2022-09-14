@@ -30,3 +30,9 @@ NETWORK
 ------
 
 `/etc/sysconfig/network-scripts/` for all available nw 
+
+
+`ip link show` or `nmcli device status` to view devices
+
+
+`nmcli connection add con-name VMNET06 connection.autoconnect yes ipv4.method auto 
