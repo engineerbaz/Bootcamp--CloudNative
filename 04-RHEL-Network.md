@@ -64,6 +64,13 @@ add duplicate IPs
 [Base-OS]
 name=base-os 
 baseurl=file:///DVD/BaseOS/
+enabled=1
+gpgcheck=0
 
+[AppStream]
+name=App-Stream 
+baseurl=file:///DVD/AppStream/
+enabled=1
+gpgcheck=0
 
 ```
