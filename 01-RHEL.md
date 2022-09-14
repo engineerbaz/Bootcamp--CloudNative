@@ -194,6 +194,8 @@ pasphrase for enctyption
 `ps aux | less`
 
 
+`systemctl get-default` for showing type of 
+
 ## Vimtutor 
 For tutorial for learning
 
