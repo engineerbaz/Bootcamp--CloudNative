@@ -60,6 +60,11 @@ add duplicate IPs
 - Local Repos
 - Always have extension `.repo`
 
+`lsblk` shows list of devices 
+
+`mount /ev/Sr0 /DVD`
+
+
 ```
 [Base-OS]
 name=base-os 
@@ -74,3 +79,12 @@ enabled=1
 gpgcheck=0
 
 ```
+`yum repolist`
+
+`repo.d`
+
+
+===
+`subscription-manager subscribe` 
+
+
