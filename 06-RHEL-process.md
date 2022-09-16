@@ -60,3 +60,29 @@ write mount again to see status
 Write `chroot /sysroot/` and `ls -l`
 write `echo "password" | passwd --stdin root` 
 write `touch /.autorelabel` 
+
+
+=============
+
+
+# LVM
+
+- Physical Volume 
+- Virtual Group
+- Logical Volume  
+ 
+`set 1 lvm on `
+
+
+`pvcreate /dev/sda1`
+`pvs`
+
+`vgcreatw data /dev/sda1`
+
+`vgs`
+`vgdisplay data`
+
+`lvcreate -n project -L 5 GiB`
+
+
+
