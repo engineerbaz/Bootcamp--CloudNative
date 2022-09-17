@@ -3,10 +3,6 @@
 Linux is extension-free and case sensitive
 
 ## User
-- Regular
-- Superuser
-- System user
-
 - Administrattive User (Root)
 - Standard User 
 - Service User 
