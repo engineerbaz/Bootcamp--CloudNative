@@ -189,6 +189,7 @@ pasphrase for enctyption
 
 `ps aux | less`
 
+`(software) &` or `firefox &` To run software in background
 
 `systemctl get-default` for showing type of 
 
