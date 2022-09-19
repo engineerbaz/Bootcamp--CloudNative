@@ -3,10 +3,6 @@
 Linux is extension-free and case sensitive
 
 ## User
-- Regular
-- Superuser
-- System user
-
 - Administrattive User (Root)
 - Standard User 
 - Service User 
@@ -193,6 +189,7 @@ pasphrase for enctyption
 
 `ps aux | less`
 
+`(software) &` or `firefox &` To run software in background
 
 `systemctl get-default` for showing type of 
 
