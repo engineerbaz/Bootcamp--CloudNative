@@ -7,3 +7,8 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 
    - **Contributions of any kind are welcome! :sparkles:**
 
+## Introduction 
+
+## System Administrator - Linux
+
+## RDBMS
