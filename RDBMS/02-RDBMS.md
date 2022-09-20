@@ -20,3 +20,9 @@ A **Transaction** Collection of DML statement that forms a logical unit of work
 INSERT INTO table [(solumn [, coloumn ...])]
 VALUES      (value [, value ...]);
 ```
+
+
+``` 
+INSERT INTO table [(solumn [, coloumn ...])]
+VALUES      (value [, value ...]);
+```
