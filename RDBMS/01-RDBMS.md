@@ -94,16 +94,30 @@ FROM employees;
 SELECT department_id from hr.departments;
 ```
 
+## DATE 
+DD-MON-RR 
+-------------
 
+## WHERE
+For selecting data from schema
 
+```
+SELECT department_id 
+FROM employees
+WHERE department_id = 90;
+```
+`%` for multiple character
+`_` for single character
 
-
+```
+WHERE first_name LIKE 'B%' ;
+```
 --------------
 
 ## Key Points
 
 - NADRA is uing Oracle
-- 
+- `--department_id = 90` is for comments
 
 
 ------------------
