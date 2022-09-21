@@ -86,3 +86,47 @@ If no condition is given, change is appled on all field.
 ```sql
 CREATE table hr_emp AS SELECT * FROM hr.employees;
 ```
+
+# DATA DEFINATION LANGUAGE 
+
+- Table 
+- View 
+- Sequence
+- Index
+-  Synonym
+
+
+## Naming Rule 
+- Begin with letter, 30 character long, contain onlyA-Z, a-z,0-9, _,$ and # , 
+- NOt duplicate, non Oracle words
+
+# CREATE Table 
+
+```sql
+CREATE TABLE [schema.] table 
+        (coloumn datatype [DEFAULT expr][,...]);
+```
+## DATA TYPE 
+- VARCHAR2
+- CHAR 
+- NUMBER (p,s)
+- DATE
+  - TIMESTAMP
+  - Interval year to Month
+  - Interval Day to Second
+- LONG 
+- CLOB
+- ROW and LOW ROW
+- BLOB 
+  - 128 TB 
+- BFILE
+  - For exrernal file  
+- ROWID
+
+
+
+## DEFAULT 
+Specify a default value for a coloumn during the CREATE table 
+
+
+
