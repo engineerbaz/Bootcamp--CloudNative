@@ -193,6 +193,13 @@ pasphrase for enctyption
 
 `systemctl get-default` for showing type of 
 
+- RHEL 8 uses `dnf` as installation package , yum is used as alias 
+
+`grep`
+
+**stderr** for showing buffere 
+**stdin** and **stdout** for inputting and outputing data (printed to open terminal)
+
 ## Vimtutor 
 For tutorial for learning
 
