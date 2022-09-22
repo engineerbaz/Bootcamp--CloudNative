@@ -29,10 +29,23 @@ after running docker by
 
 By default **tcp** if we dont mention 
 
+`docker exec -it [containerName] (Shell)` like `docker exec -it nginx bash` 
+
+  - Container uses **namespace** and **cGroup** of Host
+
 ===
 
 graceful termination 
 forced termination = end process 
+SNAT = MASQUERADE 
+
+=======
+
+`iptables -t nat -L | grep 172.17.0.2` 
+**DNAT  tcp --  anywhere    0.0.0.0/0   tcp dpt:5000**
+
+`firewall-cmd --add-port=5000` 
+
 
 ===============
 open vpn connect to be installed. 
