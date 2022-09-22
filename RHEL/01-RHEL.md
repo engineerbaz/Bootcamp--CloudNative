@@ -200,6 +200,8 @@ pasphrase for enctyption
 **stderr** for showing buffere 
 **stdin** and **stdout** for inputting and outputing data (printed to open terminal)
 
+`wget` download manager
+
 ## Vimtutor 
 For tutorial for learning
 
