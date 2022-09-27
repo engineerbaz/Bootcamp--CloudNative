@@ -13,3 +13,8 @@ hair pin mode multiple MAC to be recieved on a port
 `nmcli con show`
 
 `nmcli con modify ens33 connection.autoconnect yes` 
+
+
+
+**apache** is **httpd** in CentOs distro 
+drivers = module in Linux
