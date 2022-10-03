@@ -69,6 +69,65 @@ insert into hotel values('fb02', 'Watergate', 'Paris');
 INSERT into room values(101, 'fb01', 'single', 20);
 insert into guest values(10001, 'John Kay', '56 High St, London');
 
-insert into booking values('fb01', 10001, '04-04-01', '04-04-08', 501);
+INSERT into booking values('fb01', 10001, '04-MAY-01', null, 701);
+
 ```
 
+```sql
+
+SELECT guestname, guestaddress
+
+ FROM guest
+
+ WHERE guestaddress LIKE '%London%'
+
+ORDER BY guestname;
+```
+
+
+
+```sql
+SELECT * FROM room
+
+ WHERE price < 40 AND type IN ('Double', 'Family')
+
+ ORDER BY price;
+
+ 
+
+
+```
+
+
+```sql
+SELECT AVG(price) FROM room;
+
+SELECT SUM(price) FROM room WHERE type = 'Double';
+
+
+
+SELECT * FROM guest
+
+WHERE guestno =
+
+(SELECT guestno FROM booking
+
+WHERE datefrom <= CURRENT_DATE AND dateto >= CURRENT_DATE AND
+
+hotelno = (SELECT hotelno FROM hotel
+
+WHERE hotelname = 'Grosvenor'));
+
+
+
+
+SELECT SUM(price) FROM booking b, room r, hotel h
+
+WHERE (b.datefrom <= CURRENT_DATE AND
+
+b.dateto >= CURRENT_DATE) AND
+
+r.hotelno = h.hotelno AND r.roomno = b.roomno;
+
+
+```
