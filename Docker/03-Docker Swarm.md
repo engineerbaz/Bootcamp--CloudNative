@@ -43,4 +43,13 @@ DNAT       tcp  --  0.0.0.0/0            0.0.0.0/0            tcp dpt:5000 to:17
 
 ===
 
+1. we
+2. 
+3. npm
+4. npm run build 
 
+1. Framework Project made on 
+2. which tool used for manage it 
+3. How did you build it. 
+4. where are build asset stored
+5. how deployed
