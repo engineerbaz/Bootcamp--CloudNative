@@ -1,0 +1,44 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: zong-uat
+  labels:
+    name: zong
+    type: uat
+spec:
+  containers:
+  - name: zong-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: zong-stagging
+  labels:
+    name: zong
+    type: stagging
+spec:
+  containers:
+  - name: zong-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: zong-prod
+  labels:
+    name: zong
+    type: prod
+spec:
+  containers:
+  - name: zong-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
