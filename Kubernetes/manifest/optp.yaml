@@ -26,7 +26,6 @@ spec:
     image: centos/httpd
     ports:
       - containerPort: 80
-
 ---
 
 apiVersion: v1
