@@ -1,0 +1,35 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: zong-deploy
+spec:
+  selector:
+    matchLabels:
+      app: zongapp
+  template:
+    metadata:
+      labels:
+        app: zongapp
+    spec:
+      containers:
+      - name: myapp
+        image: centos/httpd
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 80
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: zongapp
+spec:
+  selector:
+    app: zongapp
+  ports:
+  - port: 80
+    type: NodePort
+
