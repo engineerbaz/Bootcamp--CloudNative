@@ -1,0 +1,43 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: optp-uat
+  labels:
+    name: optp
+    type: uat
+spec:
+  containers:
+  - name: optp-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: optp-stagging
+  labels:
+    name: optp
+    type: stagging
+spec:
+  containers:
+  - name: optp-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: optp-prod
+  labels:
+    name: optp
+    type: prod
+spec:
+  containers:
+  - name: optp-cont
+    image: centos/httpd
+    ports:
+      - containerPort: 80
