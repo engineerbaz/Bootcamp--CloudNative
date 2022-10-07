@@ -19,6 +19,10 @@ It has 3 ports only one is Madontory to mention
 
   --------   ----   -----------
 | NodePort | Port | TargetPort  |
+| : ---    | :--- | :--- |
+
+
+
   --------   ----   -----------
 
 ## ClusterIP
