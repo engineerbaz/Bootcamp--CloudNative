@@ -13,11 +13,11 @@ yum remove -y $(!!)
 ```
 
 
-`wget get.docker.com -O docker.sh` and run as `./docker.sh` then set **execute** permissions as `chmod +x`
+`wget get.docker.com -O docker.sh` and run as `./docker.sh` then set **execute** permissions as `chmod u+x`
 after running docker by 
 
-**?????**
 
+`systemctl start docker` for starting docker service
 
 `systemctl enable docker` for enabling docker everytime system boots
 
@@ -46,6 +46,8 @@ SNAT = MASQUERADE
 
 `firewall-cmd --add-port=5000` 
 
+----
 
+one after the other: ctrl+p followed by ctrl+q. You turn interactive mode to daemon mode, which keeps the container running but frees up your terminal. You can attach to it later using docker attach, if you need to interact with the container more.
 ===============
 open vpn connect to be installed. 
