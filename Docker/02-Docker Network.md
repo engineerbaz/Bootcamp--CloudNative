@@ -42,7 +42,7 @@ By defualt, Bridge is driver and its docker0
 ## Namespace isolation 
 - User 
 - network
-- FS
+- File system
 - Runing processes
 
 
