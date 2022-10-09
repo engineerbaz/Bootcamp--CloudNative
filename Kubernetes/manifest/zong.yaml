@@ -43,3 +43,19 @@ spec:
     ports:
       - containerPort: 80
 
+---
+
+
+ kubectl get apiVersion: v1
+ kind: Pod
+ metadata:
+   name: myapp
+   labels:
+     name: myapp
+ spec:
+   containers:
+   - name: myapp
+     image: surahio29/surahiorepo:v1
+     ports:
+       - containerPort: 80
+ 
