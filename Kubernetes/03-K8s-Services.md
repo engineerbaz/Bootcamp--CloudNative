@@ -24,3 +24,9 @@ It has 3 ports only one is Madontory to mention
 
 ## ClusterIP
 
+
+Create Dockerfile by `touch Dockerfile`
+```YAML
+
+
+```
