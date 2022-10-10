@@ -34,3 +34,19 @@ and make it premissive by `setenforce 0`
 
 `exec bash` for implenting changes 
 
+
+
+==============
+
+
+
+nmcli connection modify ens33 ipv4.method manual ipv4.addresses 192.168.144.139/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 192.168.144.2
+
+nmcli con modify ens33 connection.autoconnect yes
+
+
+nmcli connection reload
+
+
+vi /etc/hosts
+vi /etc/hostname
