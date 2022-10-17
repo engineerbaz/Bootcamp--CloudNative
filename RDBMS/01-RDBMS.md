@@ -138,3 +138,14 @@ WHERE first_name LIKE 'B%' ;
 
 </p>
 </details>
+
+
+
+- DBA 
+- ERP 
+- SAP 
+  - SAP Bases
+
+
+- IBM 
+  - DB2
