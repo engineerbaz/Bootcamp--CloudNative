@@ -38,10 +38,10 @@ Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM)
 useradd ansible 
 passwd ansible
 
-vi /etc/sudoer
+vi /etc/sudoers
 
 
-ansible ALL=(ALL) NOPASSWD:ALL
+ansible ALL=(ALL) NOPASSWD: ALL
 
 
 ssh-keygen
@@ -81,10 +81,10 @@ useradd ansible
 passwd ansible
 ```
 Add 
-`vi /etc/sudoer`
+`vi /etc/sudoers`
 
 
-ansible ALL=(ALL) NOPASSWD:ALL
+ansible ALL=(ALL) NOPASSWD: ALL
 
 
 ssh-keygen
@@ -100,15 +100,14 @@ ssh-copy-id ansible@192.168.144.201
 
 
 ## Install ansible
-sudo yum install wget 
-then run 
-wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
 
-Now do “ls”
-```shell
-yum install epel-release-latest- 7.noarch.rpm –y
-yum update –y 
-```
+Run `sudo yum install wget` 
+then run `wget https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm`
+
+Now do `“ls”` and 
+
+`yum install epel-release-latest- 7.noarch.rpm –y` and `yum update –y `
+
 Now we have to install all the packages one by one
 
 `yum install git python python-level python-pip openssl ansible –y`
@@ -120,8 +119,10 @@ Now this hosts file is only working after updating ansible.cfg  file
 `vi  /etc/ansible/ansible.cfg`
 
 Uncomment these 
-`#inventory=  /etc/ansible/hosts
-#sudo-user= root`
+```
+#inventory=  /etc/ansible/hosts
+#sudo-user= root
+```
 
 
 =========
@@ -152,3 +153,10 @@ Before making playbooks (mainifest of commands) , we shall make inventory to def
 
 
 Target - Task - Variable 
+
+
+---
+
+CREDENTIALS
+ansible
+ansible
