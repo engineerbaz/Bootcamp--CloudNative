@@ -96,7 +96,7 @@ ssh-keygen
 
 ssh-copy-id ansible@192.168.144.200
 
-
+ssh-copy-id ansible@192.168.144.201
 
 
 ## Install ansible
@@ -122,3 +122,33 @@ Now this hosts file is only working after updating ansible.cfg  file
 Uncomment these 
 `#inventory=  /etc/ansible/hosts
 #sudo-user= root`
+
+
+=========
+
+
+Before making playbooks (mainifest of commands) , we shall make inventory to define target i.e group, node and all. 
+
+**DB** is a group and DB(0) is first one and DB(n-1) is last in list with range can be defined as DB(0:6) for selecting first to seventh entry
+
+- adhoc
+  - Single task but dont intimate for repeatation
+- module 
+  - Single Tasks with intimation
+- playbooks
+  - Combination of module
+
+
+
+
+[ansible@ip]$ ansible demo -a "ls"
+[ansible@ip]$ ansible demo[0] -a "touch filez"
+[ansible@ip]$ ansible all -a "touch file4"
+[ansible@ip]$ ansible demo -a "ls -al"
+[ansible@ip]$ ansible demo -a "sudo yum install httpd -y"
+                                   or 
+[ansible@ip]$ ansible demo -ba "yum install httpd -y"
+[ansible@ip]$ ansible demo -ba "yum remove httpd -y"
+
+
+Target - Task - Variable 
