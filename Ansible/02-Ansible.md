@@ -203,8 +203,54 @@ ansible-playbook main.yml -u ansible --become
 
 
 
+`ansible-vault create testencyrpt.yaml` for making encrypted file
+
+` ansible-playbook --ask-vault-pass encrypt.yaml` for running encrypted files 
 
 
+---
+```yaml
+- name: Loop Register Test
+  gather_facts: no
+  hosts: 192.168.144.201
+  tasks:
+    - name: Looping Echo Task
+      shell: "echo This is my item: {{ item }}" loop:
+        - one
+        - two
+      register: echo_results
+    - name: Show echo_results variable
+      debug:
+        msg: "STDOUT from previous task: {{ item.stdout }}" loop: "{{echo_results['results'] }}"
+```
+
+```yaml
+
+
+- name: Demonstrate the "in" keyword 
+  hosts: all
+  gather_facts: yes 
+  vars:
+    supported_distros:
+      - RedHat
+      - Fedora 
+  tasks:
+    - name: Install httpd using yum, where supported yum:
+        name: http 
+        state: present
+      when: ansible_distribution in supported_distros
+```
+
+
+
+
+
+
+
+
+
+
+==========
 
 
 
@@ -261,5 +307,3 @@ ansible-playbook main.yml -u ansible --become
 
 -----
 
-
-`ansible-vault create testencyrpt.yaml` for making encrypted file
