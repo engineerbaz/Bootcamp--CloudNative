@@ -260,3 +260,6 @@ ansible-playbook main.yml -u ansible --become
         remove: yes
 
 -----
+
+
+`ansible-vault create testencyrpt.yaml` for making encrypted file
