@@ -241,18 +241,67 @@ ansible-playbook main.yml -u ansible --become
       when: ansible_distribution in supported_distros
 ```
 
+```yaml
+
+-name: copy all files in myconf/
+ copy:
+    src: epel-release-latest-7.noarch.rpm
+    dest: /home/ansible
+    owner: ansible
+    group: ansible
+    mode: u=rw, g=rw, o=r
+```
 
 
-
-
-
-
-
-
-
+With_fileglob:
+    -“myconf /*”
+ 
 ==========
 
 
+- name: Copy file
+  hosts: all
+  user: ansible
+  gather_facts: yes
+  become: yes
+  connection: ssh
+  tasks:
+    - name: Copy all file
+      copy:
+        src: /home/ansible/httpd-2.4.6-95.el7.centos.src.rpm
+        dest: /home/ansible/httpd-2.4.6-95.el7.centos.src.rpm
+        owner: ansible
+        group: ansible
+        mode: u=rw, g=rw, o=r
+
+    - name: Install all file
+      action: yum name=unzip state=instll
+
+`ansible (web) -ba "tail - 6 /var/log/yum.log"` for checking logs if installation done successfully
+
+---
+
+my_ip  = "{{ansible_default_ipv4}}
+
+
+
+---
+
+```yaml
+- name: Tenplate
+  hosts: all
+  user: ansible
+  gather_facts: yes
+  become: yes
+  connection: ssh
+  tasks:
+    - name: template all file
+      template:
+        src: /home/ansible/template/app.conf.j2
+        dest: /etc/app.conf
+
+ 
+```
 
 
 ================================
