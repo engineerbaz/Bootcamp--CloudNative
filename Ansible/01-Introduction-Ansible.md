@@ -11,14 +11,14 @@ Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM)
 
 
 ------------
-## Chef 
+### Chef 
 - gent based.
 - creates Recipe
 - Uses Ruby language
 - Client Server model 
 
 
-## Ansible 
+### Ansible 
 - Introduced in 2012, devloped in Python
 - Uses YAML 
 - By Redhat
