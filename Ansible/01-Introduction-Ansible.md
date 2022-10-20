@@ -43,7 +43,7 @@ First add user by `useradd ansible ` and set password `passwd ansible` and edit 
 then generate SSH Key by `ssh-keygen`
 
 
-
+```shell
 [ansible@centos root]$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ansible/.ssh/id_rsa):
@@ -67,21 +67,10 @@ The key's randomart image is:
 |BOXB=+o+.o       |
 +----[SHA256]-----+
 [ansible@centos root]$
-
-
-Add user and set password by 
 ```
-useradd ansible 
-passwd ansible
-```
-Add 
-`vi /etc/sudoers`
 
 
-ansible ALL=(ALL) NOPASSWD: ALL
-
-
-ssh-keygen
+ 
 
 
 
