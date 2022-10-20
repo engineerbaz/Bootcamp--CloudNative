@@ -16,6 +16,7 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 ## 04 Docker
 
 ## 05 Kubernetes
+[K8s](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Kubernetes)
 
 ## 06 Ansible
-[Link](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
+[Ansible](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
