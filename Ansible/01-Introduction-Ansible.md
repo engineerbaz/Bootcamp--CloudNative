@@ -1,18 +1,9 @@
 # Ansible
 A configuration management software by Redhat
 
-- ASIS
-  - Intel Supported
-- RSIS 
-  - Unix based
-
-Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM) and Weblogic (Oracle), it also called as Three tier architecture 
-
-
-
 ------------
 ### Chef 
-- gent based.
+- Agent based.
 - creates Recipe
 - Uses Ruby language
 - Client Server model 
@@ -34,23 +25,25 @@ Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM)
 
 
 
+- ASIS
+  - Intel Supported
+- RSIS 
+  - Unix based
+
+Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM) and Weblogic (Oracle), it also called as Three tier architecture 
+
 ---
 
-useradd ansible 
-passwd ansible
+## Installation of Ansible
 
-vi /etc/sudoers
+First add user by `useradd ansible ` and set password `passwd ansible` and edit `vi /etc/sudoers` add following lines
 
+`ansible ALL=(ALL) NOPASSWD: ALL`
 
-ansible ALL=(ALL) NOPASSWD: ALL
-
-
-ssh-keygen
+then generate SSH Key by `ssh-keygen`
 
 
-[ansible@centos root]$ clear
-[ansible@centos root]$ hostname
-centos.sample
+
 [ansible@centos root]$ ssh-keygen
 Generating public/private rsa key pair.
 Enter file in which to save the key (/home/ansible/.ssh/id_rsa):
