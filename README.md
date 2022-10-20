@@ -9,7 +9,7 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 
 ## 01 Introduction 
 
-## 02 System Administrator - Linux
+## 02 System Administrator - [Linux RHEL](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/RHEL)
 
 ## 03 [RDBMS](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/RDBMS)
 
