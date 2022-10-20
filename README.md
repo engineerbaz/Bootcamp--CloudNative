@@ -13,13 +13,8 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 
 ## 03 [RDBMS](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/RDBMS)
 
-[RDBMS](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/RDBMS)
+## 04 [Docker](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Docker)
 
-## 04 Docker
-[Docker](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Docker)
+## 05 [Kubernetes] (https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Kubernetes)
 
-## 05 Kubernetes
-[K8s](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Kubernetes)
-
-## 06 Ansible
-[Ansible](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
+## 06 [Ansible](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
