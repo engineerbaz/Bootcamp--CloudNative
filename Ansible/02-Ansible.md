@@ -303,6 +303,34 @@ my_ip  = "{{ansible_default_ipv4}}
  
 ```
 
+sudo yum install rhel-system-roles
+ls -l /usr/share/ansible/roles/
+ansible-galaxy init bashir
+yum install tree
+tree bashir
+
+----
+
+- hosts: 192.168.144.201
+  user: ansible
+  connection: ssh
+  become: yes
+  gather_facts: yes
+  handlers:
+    - name: task with role 
+      
+
+
+
+
+===
+
+
+
+
+
+
+
 
 ================================
 ---
