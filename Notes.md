@@ -40,7 +40,7 @@ and make it premissive by `setenforce 0`
 
 
 
-nmcli connection modify ens33 ipv4.method manual ipv4.addresses 192.168.144.201/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 192.168.144.2 connection.autoconnect yes
+nmcli connection modify ens33 ipv4.method manual ipv4.addresses 192.168.144.211/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 192.168.144.2 connection.autoconnect yes
 nmcli con modify ens33 connection.autoconnect yes
 
 
