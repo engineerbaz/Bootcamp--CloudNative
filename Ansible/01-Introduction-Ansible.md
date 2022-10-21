@@ -122,7 +122,7 @@ Before making playbooks (mainifest of commands) , we shall make inventory to def
 - playbooks
   - Combination of module
 
-
+`ansible-doc` for manual pages 
 
 
 [ansible@ip]$ ansible demo -a "ls"
