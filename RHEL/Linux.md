@@ -41,3 +41,4 @@ Temporary files for 10 days
 - KSH
 
 
+kiosk | redhat
