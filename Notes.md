@@ -35,7 +35,8 @@ and make it premissive by `setenforce 0`
 `exec bash` for implenting changes 
 
 
-
+# Add line number in VI 
+Write `:set number` in Vi for adding line numbers
 ==============
 
 
