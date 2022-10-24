@@ -55,4 +55,17 @@ vi /etc/hostname
 
 ======================
 ========================
+```shell
 
+#! /bin/bash
+yum -y install httpd
+systemctl start httpd 
+firewall-cmd --add-service=http
+firewall-cmd --add-service=http --permenent
+
+```
+
+
+
+scp hhtp.sh serverb:/bin/http #copy file to next server 
+ssh serverb http  #run file in remote server 
