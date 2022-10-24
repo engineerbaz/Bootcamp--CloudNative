@@ -69,3 +69,6 @@ firewall-cmd --add-service=http --permenent
 
 scp hhtp.sh serverb:/bin/http #copy file to next server 
 ssh serverb http  #run file in remote server 
+
+
+===
