@@ -72,3 +72,4 @@ ssh serverb http  #run file in remote server
 
 
 ===
+scp ansible@192.168.144.200:/home/ansible/bazPV.yaml d:\
