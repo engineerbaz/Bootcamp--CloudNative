@@ -98,8 +98,16 @@ Adding some random bits for making two same password iin hash form
 
 
 ---
+**WEBSITE**
 
+https://centralops.net/co/EmailDossier.aspx
 
+https://www.virustotal.com/gui/home/upload
+
+https://www.netcraft.com/
 -------------
 QUESTION TO BE ASKED 
-1. 
+
+
+North - South === Internal 
+East - West ==== External 
