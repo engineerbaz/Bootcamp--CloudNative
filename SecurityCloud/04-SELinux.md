@@ -48,3 +48,6 @@ OpenSCAP = Security Content Automation
 
 SSG = Security Compilance Guide is predefined collection
 
+==========
+
+For enhancing security we can have a password on GRUB Loader as well. 
