@@ -74,3 +74,6 @@ ssh serverb http  #run file in remote server
 ===
 #### Copy file from Host to VM
 scp ansible@192.168.144.200:/home/ansible/bazPV.yaml d:\
+
+`df -h` for Human readable with 1024 size 
+`df -H` for Human readable with 1000 size 
