@@ -83,4 +83,23 @@ WORKER NODE
 - GUIDELINES:
   - 85% attendance is madontory so maximum benefit can availabled.
   - Please inform prior to class if not going to attend class 
-  - 
+
+
+
+
+
+- CLASSES WILL BEGIN ON 11 NOVEMBER 2022
+Fridays at 2100 PKT (UTC+5), the schedule will be discussed.
+- COURSE DURATION: Roughly four months (16 to 18 weeks) depending on trainer availability.
+
+- AUDIENCE: Professionals, as this is a specialized class with a small number of participants.
+- CLASS WILL BEGIN IF 60% OF THE AUDIENCE IS PRESENT (Trainers/Students).
+- Lesson STRUCTURE: Total one-and-a-half-hour class beginning with a brief review and problem-solving (if any)
+- STUDY TIME: One-and-a-half-hour online class and at least two hours for homework/practice and independent study.
+- COURSE OUTLINE: Shared previously; Just to summarize Linux, Git, Docker, Kubernetes, Jenkins, and Ansible with GitHub; Also, real-world applications.
+- SILENT FEATURES:
+- Online class with limited enrollment for individualized instruction.
+- LMS Session for review and study - Video recordings
+- Assignments and tasks for continuous learning - WhatsApp Group for questions and concerns
+- RECOMMENDATIONS: - Attendance of at least 85 percent is required to provide optimal benefit.
+- Inform the instructor before to class if you will be absent.
