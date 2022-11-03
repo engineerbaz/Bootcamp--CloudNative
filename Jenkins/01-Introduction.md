@@ -33,3 +33,8 @@ password can be seen from `cat /var/lib/jenkins/secrets/initialAdminPassword`
 
 
 after opening select **Suggested plugins** options
+
+
+--
+
+WORKER NODE 
