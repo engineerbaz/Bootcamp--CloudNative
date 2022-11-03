@@ -40,6 +40,47 @@ after opening select **Suggested plugins** options
 WORKER NODE 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 
+- START DATE: Classes to be started from November 11th, 2022
+- TIMING : Schedule disucssed as 2100 PKT (UTC+5) on Fridays.
+- COURSE DURATION : Approx 4 months (16 weeks - 18 weeks ) as per availability of trainer.
+- AUDIENCE: Professioanls as its a dedicated Class with minimum number of participatents 
+- COMMENCEMNET: Class will be commenced if 60% audience availble (Trainer / Students) 
+- CLASS STRUCTURE: Total One & half hour class starting with quick review & issue resolution (if any)
+- STUDY TIME:  One & half hour Online Class & atlest 2 Hours for assignment/practice & self study.   
+- COURSE OUTLINE: Shared already, Just to sum up Linux, Git, Docker, Kubernetes, Jenkins and Ansible with GitHub, Also real world projects.
+- SILENT FEATURES:
+  - Dedicated Online class with minimum participatents for dedicated attention
+  - LMS Session for learning and review
+  - Video recordings
+  - Assignments/Tasks for continous learning
+  - WhatsApp Group for queries and questions 
+- GUIDELINES:
+  - 85% attendance is madontory so maximum benefit can availabled.
+  - Please inform prior to class if not going to attend class 
+  - 
