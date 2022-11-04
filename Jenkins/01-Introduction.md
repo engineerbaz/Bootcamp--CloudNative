@@ -41,7 +41,24 @@ WORKER NODE
 
 
 
+=====
 
+
+Project or Task 
+
+
+- Build 
+  - One run of project 
+- Build Step
+  - A task inside a projetc 
+- Build Trigger
+  - Criteria for starting a build 
+  - Manual or auto
+
+plugins = A software package that extends Jenkins' core functionality
+
+
+Jenkins is web-based application , can run on laptop or server (256MB RAM & 1GB HDD) with Java 11 JRE /JDK, if containerization 1Gb RAM & 10GB storage
 
 
 
