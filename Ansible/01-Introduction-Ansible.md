@@ -7,30 +7,80 @@ A configuration management software by Redhat
 - creates Recipe
 - Uses Ruby language
 - Client Server model 
+- RabbitMQ
+
+### Salt
+- Agentless based.
+- Salt Master and Minion
+- 0MQ making fast 
+- Also works on SSH 
 
 
 ### Ansible 
 - Introduced in 2012, devloped in Python
-- Uses YAML 
+- Created by Michael Dehaan also creator of Cobbler
+- Purchased by Redhat in 2015
+- Uses SSH and PowerShell in Windows
+- Uses YAML as INI format 
 - By Redhat
 - Agentless
 - Push based
 - Ansible is opensource
 - Ansible Tower is GUI based for Enterprise
+- Also uses can use SSH Pipelines
 
 ## Required for Ansible 
 - User with Su doer 
 - Package available 
 - Keyless (Keygen)
 
+Any host can be controlled 
+doesnt need Central server
+COntrol host can utilize multiple inventory files & can pull dynamic inventory from various sources
+ 
+### Worker
+- Managed over SSH
+- Sensitive data in Ansible vault 
+
+Modules idempotency (can run multiple times but state remains same)
+
+### inventory
+- Stored in INI and YAML
+- IP and/or hostname
+  
+
+**Ansible playbooks** Maps groups of hosts to sets of roles and Roles are represented by calls by Ansible Task 
+
+Ansible Tower
+- Rest API 
+- Webbased 
+- Commercial 
+- AWX 
 
 
-- ASIS
-  - Intel Supported
-- RSIS 
-  - Unix based
+Provisiong can be on Bare metal Servers, Cloud, Virtualized Systems or Network device
 
-Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM) and Weblogic (Oracle), it also called as Three tier architecture 
+**IT Automation Process** includes Provision --> Configure --> Deploy --> Manage 
+
+Proisioning with Ansible
+- Configuratio Management , Orchestation & Application Deployment
+
+Systems to Provision
+Bare metal Servers, Virtualized Systems, Network devices, Storage Systems & Cloud Systems
+Module for 
+- Compute 
+- Cloud Storage
+- Cloud Networking
+- same
+
+Configuratio Management is widely
+Simple data descriptions of infrastructure in human readable format only requires password or SSH key to manage Systems
+Configuration describes the desired state , can also dry-run test
+Relies on OpenSSH, Supports sudo and doesnt requires 
+- 1300 modules, 
+- Ansible Galaxy provides 4000 community 
+
+
 
 ---
 
@@ -143,3 +193,14 @@ Target - Task - Variable
 CREDENTIALS
 ansible
 ansible
+
+
+====
+
+
+- ASIS
+  - Intel Supported
+- RSIS 
+  - Unix based
+
+Middleware for running application like IIS,nginx, apache,tomcat, Webspare (IBM) and Weblogic (Oracle), it also called as Three tier architecture 
