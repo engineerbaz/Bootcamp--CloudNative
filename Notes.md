@@ -77,3 +77,6 @@ scp ansible@192.168.144.200:/home/ansible/bazPV.yaml d:\
 
 `df -h` for Human readable with 1024 size 
 `df -H` for Human readable with 1000 size 
+
+
+In **vi** you can set Tab Space to 2 by running `set ts=2` after pressing `:` in vi editor.
