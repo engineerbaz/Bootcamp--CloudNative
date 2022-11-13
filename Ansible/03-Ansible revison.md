@@ -427,6 +427,9 @@ secrets_src files/htpasswd
 secrets_dest "{{ secrets_dir }}/htpasswd"
 web_root /var/www/html
 
+## Assignment
+
+```yaml 
 
 ---
 - name: Deploy and start Apache HTTPD service
@@ -447,7 +450,7 @@ web_root /var/www/html
   tasks:
     - name: Installing packages up todate
       yum:
-        name:
+        name: 
           - "{{web_pkg}}" 
           - "{{firewall_pkg}}" 
           - "{{ssl_pkg}}" 
@@ -499,6 +502,9 @@ web_root /var/www/html
 
 
 
+```
+
+### Assignment
 ==================
 
 ### Loop
