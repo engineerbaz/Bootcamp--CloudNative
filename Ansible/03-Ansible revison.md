@@ -498,13 +498,48 @@ web_root /var/www/html
         name: "{{ web_svc }}"
         enabled: true
         state: started
+...
+```
 
+#Second Play
 
+```yaml
+
+- name: Second
+  hosts: localhost
+  become: no
+  vars:
+    web_user: guest
+  vars_files:
+    - vars/secret.yml
+  tasks:
+    - name: Connect Web Server with Auth 
+      uri:
+        url: https://serverb.lab.example.com
+        validate_certs: no
+        force_basic_auth: yes
+        user: "{{ web_user }}"
+        password: "{{ web_pass }}"
+        return_content: yes 
+        status_code: 200
+      register: auth_test
+    - debug:
+        var: auth_test.content  
 
 
 ```
 
-### Assignment
+$ mkdir vars
+cd vars 
+echo "web_pass: "redhat" >> secret.yml
+
+
+
+ansible-vault create vars/secret.yml
+web_pass: redhat
+
+
+### Assignment ###
 ==================
 
 ### Loop
