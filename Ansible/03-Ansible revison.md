@@ -513,7 +513,7 @@ web_root /var/www/html
   vars_files:
     - vars/secret.yml
   tasks:
-    - name: Connect Web Server with Auth 
+    - name: Connect 2 Web Server with Auth 
       uri:
         url: https://serverb.lab.example.com
         validate_certs: no
@@ -528,6 +528,13 @@ web_root /var/www/html
 
 
 ```
+ 
+
+
+
+----
+
+
 
 $ mkdir vars
 cd vars 
