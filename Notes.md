@@ -80,3 +80,19 @@ scp ansible@192.168.144.200:/home/ansible/bazPV.yaml d:\
 
 
 In **vi** you can set Tab Space to 2 by running `set ts=2` after pressing `:` in vi editor.
+
+
+## Decode Password 
+echo -n "emVlc2hhbm11bmlyMTg6WkVFbXVuaXIxOA==" | base64 -d=Abc123
+
+
+docker run --name=mysql-db -d -e "MYSQL_USER=mysql, MYSQL_PASSWORD=sql123" mysql  
+
+
+docker exec -ti mysql /bin/bash 
+mysql --user=root --password
+
+
+
+docker run --name=<name of container> --link <database container>:<name of database> -p 8082:80 <image>
+docker run --name=phpadmin --link mysql-1:mydb -p 8082:80 phpadmin
