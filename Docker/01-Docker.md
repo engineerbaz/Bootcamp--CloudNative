@@ -51,3 +51,22 @@ SNAT = MASQUERADE
 one after the other: ctrl+p followed by ctrl+q. You turn interactive mode to daemon mode, which keeps the container running but frees up your terminal. You can attach to it later using docker attach, if you need to interact with the container more.
 ===============
 open vpn connect to be installed. 
+
+nmcli connection ens192 ipv4.method manual ipv4.addr 172.21.74.110/24 ipv4.gateway 172.21.74.1 ipv4.dns 172.20.20.48,172.20.20.49 connection.autoconnect yes
+
+===--
+
+
+
+
+=======
+
+docker run --name=mysql1 -d -e MYSQL_ROOT_PASSWORD=root123 -e MYSQL_USER=baz -e MYSQL_PASSWORD=user123 mysql 
+
+docker run --name=phpmyadmin-test -P -d --link mysql1:db phpmyadmin
+
+
+docker run --name=phpmyadmin -P -d --link mysql1:db myapp
+
+
+
