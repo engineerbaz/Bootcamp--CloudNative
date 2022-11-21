@@ -54,6 +54,8 @@ open vpn connect to be installed.
 
 nmcli connection ens192 ipv4.method manual ipv4.addr 172.21.74.110/24 ipv4.gateway 172.21.74.1 ipv4.dns 172.20.20.48,172.20.20.49 connection.autoconnect yes
 
+
+nmcli connection ens192 ipv4.method manual ipv4.addr 172.21.74.111/24 ipv4.gateway 172.21.74.1 ipv4.dns 172.20.20.48,172.20.20.49 connection.autoconnect yes
 ===--
 
 
