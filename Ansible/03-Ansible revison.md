@@ -52,6 +52,7 @@ ansible ungrouped --list-host
 
 
 ==-===----===
+Password lists
 
 Ansible 
 192.168.144.200
@@ -64,6 +65,16 @@ root --> 12345
 
 ansible --> ansible
 root --> 12345
+
+SAMPLE CENTOS
+root
+12345
+
+RK1/RK4 
+centos 
+123
+
+
 
 
 
