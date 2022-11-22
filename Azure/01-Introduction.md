@@ -33,5 +33,25 @@ Windows 11 has features of
 
 Type of subscription and its feature 
 
+Four Azure subscription
+1. Billing boundries
+2. Business
+3. Access Control
+4. Enviornment
 
+subscription offers
+1. Free 
+2. Pay as go
+3. Member Offers 
+
+
+
+=======
 CloudShark
+
+subscription
+
+bazUser
+Bashir@12345
+
+20.121.66.97
