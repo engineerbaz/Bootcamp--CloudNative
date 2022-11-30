@@ -28,3 +28,4 @@ aws iam list-attached-group-policies --group-name AdminGroup
 ```
 
 
+aws ec2 create-vpc --cidr-block 192.168.0.0/16 --instance-tenancy default --tag-specification ResourceType=vpc,Tags=[{Key=Name,Value="My First VPC"}]
