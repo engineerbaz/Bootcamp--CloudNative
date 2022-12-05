@@ -55,3 +55,16 @@ bazUser
 Bashir@12345
 
 20.121.66.97
+
+===
+
+
+## Azure AD 
+
+Active Directory
+- Forest
+- Sub domain 
+- Domain Tree
+
+Read Only Domain Controller 
+- Just having read right.
