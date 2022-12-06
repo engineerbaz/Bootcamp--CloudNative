@@ -110,3 +110,19 @@ Class E| 239.0.0.0 ~ 255.255.255.254 | Class E Expperimental|**
   - Edit route (0.0.0.0 --> NAT GW)
   - Subnet associate (private)
 
+# Penetration Testing
+
+ROE = Rule of Engagement
+
+Phase 
+- Intial information gathering 
+- ss
+
+
+- Blackbox 
+- Whitebox
+
+
+- archive.org
+- SSL types 
+- 
