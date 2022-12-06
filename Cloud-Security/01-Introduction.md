@@ -47,6 +47,10 @@ Performance Assessment Network (PAN) Testing
 
 https://owasp.org/
 
+
+- Samurai Web Testing Framework
+- http://knoppix.net/
+
 ---
 
 Kavin Mitnick 
@@ -125,4 +129,8 @@ Phase
 
 - archive.org
 - SSL types 
-- 
+
+
+Blackbox PT: Where no information provided to pentester
+Graybox: Some info provided to pentester
+Whitebox: Complete information provided to pentester. (IP Addresses; Servers OS; Firewall and their versions; Network equipment details. All info except credentials)
