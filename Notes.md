@@ -96,3 +96,12 @@ mysql --user=root --password
 
 docker run --name=<name of container> --link <database container>:<name of database> -p 8082:80 <image>
 docker run --name=phpadmin --link mysql-1:mydb -p 8082:80 phpadmin
+
+---
+
+
+nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.21.74.103/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 172.21.74.1 connection.autoconnect yes
+
+
+
+nmcli con modify ens33 connection.autoconnect yes
