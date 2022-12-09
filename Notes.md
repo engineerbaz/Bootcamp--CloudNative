@@ -100,7 +100,7 @@ docker run --name=phpadmin --link mysql-1:mydb -p 8082:80 phpadmin
 ---
 
 
-nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.21.74.53/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 172.21.74.1 connection.autoconnect yes
+nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.21.74.103/24 ipv4.dns "8.8.8.8,1.1.1.1" ipv4.gateway 172.21.74.1 connection.autoconnect yes
 
 
 
