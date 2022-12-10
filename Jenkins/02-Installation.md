@@ -165,5 +165,5 @@ Then go to  CONTAINER
 
 apt update 
 apt install rsync
-apt install iputills-ping -y 
+apt install iputils-ping -y 
 
