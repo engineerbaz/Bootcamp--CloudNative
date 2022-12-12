@@ -167,3 +167,11 @@ apt update
 apt install rsync
 apt install iputils-ping -y 
 
+------=
+IN CONTAINER
+
+ssh-keygen
+ssh-copy-id root@web-server ip
+
+rsync -av /var/jenkins_home/workspace/pipeline-with-token-container/ root@172.21.74.103:/opt/webroot/
+
