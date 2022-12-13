@@ -70,5 +70,5 @@ docker run --name=phpmyadmin-test -P -d --link mysql1:db phpmyadmin
 
 docker run --name=phpmyadmin -P -d --link mysql1:db myapp
 
-
+docker status
 
