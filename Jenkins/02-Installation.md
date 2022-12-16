@@ -24,7 +24,7 @@ Add password from path `/var/lib/jenkins/secrets/initialAdminPassword`
 Install Plugins 
 
 http://172.21.74.53:8080/
-B@Z12345
+adminbaz/B@Z12345
 
 
 Websware -- IBM Java 
