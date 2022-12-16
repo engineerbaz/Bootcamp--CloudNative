@@ -105,3 +105,11 @@ nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.21.74.103/2
 
 
 nmcli con modify ens33 connection.autoconnect yes
+
+
+
+```shell
+yum install ntpdate 
+ntpdate -bu pk.pool.ntp.org
+timedatectl set-timezone Asia/Karachi
+```
