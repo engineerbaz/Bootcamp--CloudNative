@@ -48,5 +48,25 @@ cka-master/12345
 - containerd & kubelet is not containerized {installed as service on system}
 - All communication 
 
+`crictl images` for checking images on container io  
+
+======
+cka-master 172.21.74.153
+cka-worker-01 172.21.74.203
+cka-worker-02 172.21.74.253
+
+SERVER
+PC            172.21.74.3
+Master Jenkins 172.21.74.53
+Worker-01         172.21.74.103
 
 
+LOCAL
+cka-master    172.21.74.153
+cka-worker-01 172.21.74.203
+cka-worker-02 172.21.74.253
+
+
+cka-master    192.168.144.133
+cka-worker-01 192.168.144.134
+cka-worker-02 
