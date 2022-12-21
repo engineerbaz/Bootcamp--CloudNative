@@ -102,3 +102,24 @@ then
 
 
 
+===============
+
+## Change IP in ubuntu
+sudo nano /etc/netplan/00-installer-config.yaml
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens160:
+      dhcp4: no
+      dhcp6: no
+      addresses: 
+        - 172.21.74.XXX/24
+      gateway4: 172.21.74.1
+      nameservers:
+              addresses: [8.8.8.8,8.8.4.4]
+
+
+sudo netplan try
+sudo netplan apply
