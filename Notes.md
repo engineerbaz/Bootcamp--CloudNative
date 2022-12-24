@@ -113,3 +113,14 @@ yum install ntpdate
 ntpdate -bu pk.pool.ntp.org
 timedatectl set-timezone Asia/Karachi
 ```
+
+
+`echo $?` shows last ran command is OK 
+
+$$ is the PID of the current process.
+
+$? is the return code of the last executed command.
+
+$# is the number of arguments in $*
+
+$* is the list of arguments passed to the current process
