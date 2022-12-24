@@ -94,3 +94,8 @@ gpgcheck=0
 
 
 nmcli connection modify ens160 ipv4.method manual connection.autoconnect yes ipv4.addresses 192.168.0.183/24 ipv4.dns "8.8.8.8" ipv4.gateway 192.168.0.1
+
+
+nmcli connection modify ens33 ipv4.method auto connection.autoconnect yes ipv4.addresses 192.168.0.183/24 ipv4.dns "8.8.8.8" ipv4.gateway 192.168.0.1
+
+nmcli connection modify ens33 ipv4.method auto connection.autoconnect yes ipv4.addresses 172.21.74.126/24 ipv4.dns "8.8.8.8" ipv4.gateway 172.21.74.1
