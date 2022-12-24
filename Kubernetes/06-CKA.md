@@ -59,6 +59,7 @@ SERVER
 PC            172.21.74.3
 Master Jenkins 172.21.74.53
 Worker-01         172.21.74.103
+Worker-02         172.21.74.103
 
 
 LOCAL
