@@ -124,3 +124,6 @@ $? is the return code of the last executed command.
 $# is the number of arguments in $*
 
 $* is the list of arguments passed to the current process
+
+
+nmcli connection modify ens33 ipv4.method auto connection.autoconnect yes
