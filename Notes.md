@@ -106,6 +106,9 @@ nmcli connection modify ens192 ipv4.method manual ipv4.addresses 172.21.74.103/2
 
 nmcli con modify ens33 connection.autoconnect yes
 
+nmcli connection modify ens33 ipv4.method auto connection.autoconnect yes
+
+
 
 
 ```shell
