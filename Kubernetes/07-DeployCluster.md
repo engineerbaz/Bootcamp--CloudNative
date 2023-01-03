@@ -123,3 +123,17 @@ network:
 
 sudo netplan try
 sudo netplan apply
+
+
+network:
+  version: 2
+  renderer: networkd
+  ethernets:
+    ens33:
+      dhcp4: no
+      dhcp6: no
+      addresses: 
+        - 192.168.144.135/24
+      gateway4: 172.21.74.1
+      nameservers:
+              addresses: [8.8.8.8,8.8.4.4]

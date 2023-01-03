@@ -1,0 +1,1 @@
+kubeadm join 172.21.74.153:6443 --token pjwikb.fxn0l5zs8y67zwo9 --discovery-token-ca-cert-hash sha256:8ce17bec574292a2d3f39a65eb31b3516b2b42929f56e76ff6109fa5858a0eee
