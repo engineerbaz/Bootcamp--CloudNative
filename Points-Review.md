@@ -5,4 +5,10 @@
 3. NAT 
 4. Port Address Translation
 
+------
 
+
+
+`kubens` for viewing Namespaces 
+
+kubectl 
