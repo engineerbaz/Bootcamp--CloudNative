@@ -1,6 +1,6 @@
 # Ansible
 
-Playbook start with **---** and emds with **...**
+Playbook start with **---** and ends with **...**
 
 
 ansible demo -a "ls"
