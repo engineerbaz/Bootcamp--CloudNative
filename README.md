@@ -19,7 +19,7 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 
 ## 06 [Ansible](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
 
-## 07 [Cloud Security](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Security Physical)
+## 07 [Cloud Security](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Security%20Physical)
 
 ## 08 [Github](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Github)
 
