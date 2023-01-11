@@ -97,7 +97,7 @@ APIPA = Automatic Private IP Addressing) The Windows function that provides DHCP
 
 **Class D | 224.0.0.0 ~ 238.255.255.255 | Class D Multicast|
 
-Class E| 239.0.0.0 ~ 255.255.255.254 | Class E Expperimental|**
+Class E| 239.0.0.0 ~ 255.255.255.254 | Class E Experimental|**
 - 255.255.255.255 | Broadcast|
 
 
