@@ -19,6 +19,14 @@ The Notes :memo: in this repository are comprehensive and written with the goal 
 
 ## 06 [Ansible](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Ansible)
 
-## 07 [Cloud Security](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/SecurityCloud)
+## 07 [Cloud Security](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Security Physical)
 
-![BAZ NFT](https://user-images.githubusercontent.com/56934817/205443371-fdb1ad2b-3cec-47ab-89c5-3eb792d44cd2.jpg)
+## 08 [Github](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Github)
+
+## 09 [Jenkins](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Jenkins)
+
+## 10 [Cloud Security](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/Cloud-Security)
+
+## 10 [UAT-QA-Prod](https://github.com/engineerbaz/Bootcamp--CloudNative/tree/main/UAT-QA-Prod)
+
+
