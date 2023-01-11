@@ -197,7 +197,7 @@ pasphrase for enctyption
 
 `grep`
 
-**stderr** for showing buffere 
+**stderr** for showing buffer
 **stdin** and **stdout** for inputting and outputing data (printed to open terminal)
 
 `wget` download manager
