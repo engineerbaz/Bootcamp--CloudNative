@@ -102,9 +102,6 @@ Jenkins is web-based application , can run on laptop or server (256MB RAM & 1GB 
   - Please inform prior to class if not going to attend class 
 
 
-
-
-
 - CLASSES WILL BEGIN ON 11 NOVEMBER 2022
 Fridays at 2100 PKT (UTC+5), the schedule will be discussed.
 - COURSE DURATION: Roughly four months (16 to 18 weeks) depending on trainer availability.
@@ -115,8 +112,32 @@ Fridays at 2100 PKT (UTC+5), the schedule will be discussed.
 - STUDY TIME: One-and-a-half-hour online class and at least two hours for homework/practice and independent study.
 - COURSE OUTLINE: Shared previously; Just to summarize Linux, Git, Docker, Kubernetes, Jenkins, and Ansible with GitHub; Also, real-world applications.
 - SILENT FEATURES:
-- Online class with limited enrollment for individualized instruction.
-- LMS Session for review and study - Video recordings
+  - Online class with limited enrollment for individualized instruction.
+  - LMS Session for review and study - Video recordings
 - Assignments and tasks for continuous learning - WhatsApp Group for questions and concerns
 - RECOMMENDATIONS: - Attendance of at least 85 percent is required to provide optimal benefit.
 - Inform the instructor before to class if you will be absent.
+
+
+=====================
+
+- START DATE: Classes to be started from March 05th, 2023
+- TIMING : Schedule disucssed as 1900 PKT (UTC+5) on Sunday.
+
+- COURSE DURATION : Approx 4 months (16 weeks - 18 weeks ) for DevOps part.
+- AUDIENCE: Professioanls as its a dedicated Class with minimum number of participatents 
+
+- CLASS STRUCTURE: Total One hour class starting with quick review & issue resolution (if any)
+- STUDY TIME:  One hour Online Class & atlest 2 Hours for self study at home and assignment/practice tasks.   
+- COURSE OUTLINE: Shared already, Just to sum up Linux, Git, Docker, Kubernetes, Jenkins and Ansible with GitHub, Also real world projects.
+- SILENT FEATURES:
+  - Dedicated Online class with minimum participatents for dedicated attention
+  - LMS for learning and review
+  - Video recordings
+  - Assignments/Tasks for continous learning
+  - WhatsApp Group for queries and questions 
+- GUIDELINES:
+  - 90% attendance is madontory so maximum benefit can availabled.
+  - Please inform prior to class if not going to attend class 
+
+- COMMENCEMNET: Class will be commenced if 60% audience availble (Trainer / Students) 
